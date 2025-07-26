@@ -1,0 +1,48 @@
+# .gitignore
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+.env
+
+# Django
+*.log
+local_settings.py
+media/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env.local
+.env.development
+.env.production
+
+# Model files (if large)
+*.pkl
+*.h5
+*.joblib
+
+# Database
+*.db
+*.sqlite
+
+# Static files (if collected)
+staticfiles/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
